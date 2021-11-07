@@ -1,3 +1,5 @@
+allow system_server app_zygote:process getpgid;
+
 # Use HALs
 hal_client_domain(system_server, hal_lineage_fastcharge)
 hal_client_domain(system_server, hal_lineage_livedisplay)
