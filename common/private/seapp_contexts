@@ -1,1 +1,1 @@
-user=_app isPrivApp=true seinfo=platform name=org.pixelexperience.ota domain=updater_app type=app_data_file levelFrom=user
+user=_app isPrivApp=true seinfo=platform name=org.voidui.updater domain=updater_app type=app_data_file levelFrom=user
