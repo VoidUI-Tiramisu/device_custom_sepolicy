@@ -5,3 +5,6 @@ get_prop(system_app, vendor_security_patch_level_prop)
 hal_client_domain(system_app, hal_lineage_fastcharge)
 hal_client_domain(system_app, hal_lineage_livedisplay)
 hal_client_domain(system_app, hal_lineage_touch)
+
+# Allow settings to set some system props
+set_prop(system_app, exported_system_prop)
