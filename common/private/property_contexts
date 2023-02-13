@@ -14,6 +14,9 @@ ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
 # Recovery touch
 ro.minui.default_touch_rotation        u:object_r:recovery_config_prop:s0
 
+# Recovery update
+persist.sys.recovery_update         u:object_r:recovery_update_prop:s0
+
 # Themed Bootanimation dynamic colors
 persist.bootanim.color1     u:object_r:bootanim_system_prop:s0
 persist.bootanim.color2     u:object_r:bootanim_system_prop:s0
